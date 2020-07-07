@@ -5,20 +5,21 @@ html * {
 
 body {
     background-color: white;
-    text-align: center;
-    width: 5x;
+        width: 1400px;
     }
 
 #logotipo {
     /* LARGURA DO LOGOTIPO */
-    width: 0.5x;
+    width: 140px;
     /* MARGEM DO LOGOTIPO */
-    margin: 1px
-}
+        object-fit: cover;
+        margin: 5px;
+        text-align: center;
+    }
 
 #menu {
     background-color: #141679;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     border-top: 10px solid #7faad3;
     border-bottom: 10px solid #7faad3;
     padding: 10px;
@@ -46,7 +47,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
-    gap: 20px;
+    gap: 10px;
 }
 
 .item {
@@ -57,20 +58,20 @@ body {
     /* LETRAS MAIÚSCULAS */
     text-transform: uppercase;
     /* MARGEM */
-    margin: 10px;
+    margin: 20px;
     /* COR DA FONTE */
     color: white;
     /* BORDA SUPERIOR */
     border-top:10px solid #7faad3;
     /* BORDAS ARREDONDADAS */
-    border-radius: 4%;
+    border-radius: 1%;
     /* TEXTO CENTRALIZADO */
     text-align: center;
 }
 
 .rodape {
     background-color: #fae988;
-    height: 20px;
+    height: 30px;
 
     /* HABILITAR O MODO DE LINHAS E COLUNAS */
     display: grid;
