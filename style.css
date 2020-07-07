@@ -1,0 +1,81 @@
+html * {
+    margin: 0px;
+    max-width: 100%;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    width: 5x;
+    }
+
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 0.5x;
+    /* MARGEM DO LOGOTIPO */
+    margin: 1px
+}
+
+#menu {
+    background-color: #141679;
+    margin-bottom: 50px;
+    border-top: 10px solid #7faad3;
+    border-bottom: 10px solid #7faad3;
+    padding: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+#menu a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    }
+
+#menu a:hover{
+    color: crimson;
+    background-color: saddlebrown;
+}
+
+.principal {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+}
+
+.item {
+    /* COR DE FUNDO */
+    background-color: #141679;
+    /* FONTE */
+    font-family: sans-serif;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* MARGEM */
+    margin: 10px;
+    /* COR DA FONTE */
+    color: white;
+    /* BORDA SUPERIOR */
+    border-top:10px solid #7faad3;
+    /* BORDAS ARREDONDADAS */
+    border-radius: 4%;
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+}
+
+.rodape {
+    background-color: #fae988;
+    height: 20px;
+
+    /* HABILITAR O MODO DE LINHAS E COLUNAS */
+    display: grid;
+    /* ALINHAR NA HORIZONTAL */
+    justify-content: center;
+    /* ALINHAR NA VERTICAL */
+    align-items: center;
+}
